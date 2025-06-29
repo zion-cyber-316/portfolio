@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   
+    height: 60px;
+    width: 100%;
+    background-color: rgba(19, 1, 1, 0.918);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 0 20px 0 20px; */
+}
+nav .logo{
+    font-size: 28px;
+    margin-left: 15px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+
+nav .option{
+    margin-right: 35px;
+   
+}
+
+nav .option a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+
+nav .option a:hover{
+    color: rgb(96, 172, 238);
+
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+      background-color: rgba(19, 1, 1, 0.918);
+    /* background-color: rgb(34, 33, 33); */
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main .main{
+    color: white;
+   width: 500px;
+    font-size: 18px;
+    /* background-color: aqua; */
+}
+
+main .image{
+    width: 500px;
+    /* background-color: blue; */
+    text-align: center;
+    padding-top: 100px;
+}
+
+main .image img{
+    height: 400px;
+    width: 400px;
+  
+
+    border-radius: 50%;
+    /* box-shadow: 5px 1px 10px goldenrod; */
+    transition: all 1s ease 0.2s;
+}
+
+
+/* main .image img:hover{
+    height: 500px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 100px;
+
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px goldenrod;
+} */
+
+main .heading{
+    margin-top: 150px;
+    
+  
+}
+
+main .heading h4{
+    margin-top: 5px;
+
+}
+main .heading p{
+    margin-top: 20px;
+
+    font-size: 20px;
+}
+
+
+main .heading .social{
+
+margin-top: 50px;
+
+}
+main .heading .social a{
+    text-decoration: none;
+    color: white;
+margin-left: 10px;
+height: 100px;
+width: 100px;
+/* background-color: aquamarine; */
+padding: 6px;
+}
+
+main .heading .social a i{
+    font-size: 30px;
+    text-align: center;
+}
+
+ nav input{
+    display: none;
+}
+
+label i {
+    font-size: 25px;
+    font-weight: 700;
+        display: none;
+
+    
+}
+.icon{
+    display: none;
+}
+
+
+.footer{
+    margin-top: 2px;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+    color: white;
+    background-color:rgba(19, 1, 1, 0.918);
+
+ 
+ 
+    
+}
+
+/* .footer .containt .links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .containt{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer .containt .links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 2px;
+   padding: 3px 13px 3px 13px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.footer .containt .links a:hover{
+      padding: 3px 13px 3px 13px;
+    background-color: rgb(52, 56, 56);
+} */
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+.footer .text{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* responsive */
+
+
+@media(max-width:500px){
+
+    /* index */
+ .option a {
+        display: block;
+        margin-top: 15px;
+     
+    }
+
+    .option{
+        position: absolute;
+        top: 10%;
+        left: -100%;
+        height: 200px;
+        width: 100%;
+        background-color: rgb(32, 3, 3);
+        text-align: center;
+        transition: all .3s;
+    }
+
+    .icon{
+        display: block;
+        padding-right: 20px;
+    }
+    input{
+        display: block;
+    }
+
+    #check:checked~ .option{
+left: 0;
+    }
+
+
+    main{
+        height: 100%;
+    }
+
+
+
+
+
+
+
+
+
+    
+main .heading{
+    margin-top: 50px;
+    text-align: center;
+    
+  
+}
+
+main .heading h4{
+    margin-top: 5px;
+    
+
+}
+main .heading p{
+    margin-top: 20px;
+
+    font-size: 20px;
+}
+
+
+main .heading .social{
+
+margin-top: 50px;
+
+}
+main .heading .social a{
+    text-decoration: none;
+    color: white;
+margin-left: 10px;
+height: 100px;
+width: 100px;
+/* background-color: aquamarine; */
+padding: 6px;
+}
+
+main .heading .social a i{
+    font-size: 30px;
+    text-align: center;
+}
+}

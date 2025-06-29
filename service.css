@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+   
+    height: 60px;
+    width: 100%;
+    background-color: rgba(19, 1, 1, 0.918);
+    color: white;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+   
+    /* padding: 0 20px 0 20px; */
+}
+
+
+/* service */
+
+.service{
+    margin-top: 2px;
+        height: 640px;
+    width: 100%;
+      background-color: rgba(19, 1, 1, 0.918);
+    /* background-color: rgb(34, 33, 33); */
+    /* margin-top: 2px; */
+   
+  
+}
+
+
+.service h1{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    text-decoration: underline;
+  
+} 
+
+
+
+
+ .dibba{
+      display: flex;
+    justify-content: space-around;
+    align-items: center;
+     margin-top: 50px; 
+     flex-wrap: wrap;
+     
+ } 
+
+
+
+
+.service .ser-cantainer{
+    background-color: rgba(19, 18, 18, 0.644);
+    height: 450px;
+    width: 400px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+
+    
+} 
+
+
+.service .ser-cantainer img{
+    height: 250px;
+    width: 400px;
+    border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+}
+
+.service .ser-cantainer p{
+    font-weight: 700;
+    padding-top: 20px;
+    
+}
+.service .ser-cantainer i{
+   padding-right: 10px;
+    
+}
+
+.service .ser-cantainer .btn{
+   background-color: aqua;
+   margin-top: 30px;
+padding: 5px 20px 5px 20px;
+border-radius: 10px;
+    
+}
+
+
+@media(max-width:500px){
+
+    .service{
+        height: 100%;
+    }
+
+    .ser-cantainer{
+        margin-bottom: 30px;
+    }
+}
